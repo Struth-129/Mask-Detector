@@ -35,7 +35,6 @@ function draw() {
   text(label, width / 2, height - 16);
 
   // Pick an emoji, the "default" is train
-  let emoji = "⌚";
   if (label == "Mask") {
     emoji = "✔";
   } else if (label == "No Mask") {
